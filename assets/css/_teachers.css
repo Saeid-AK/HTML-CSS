@@ -1,0 +1,51 @@
+.teacher-section-wrapper {
+  background-image: url(../img/color.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100px;
+}
+.teacher-section-wrapper img {
+  opacity: 0.8;
+}
+.teacher-intro {
+  background-color: #fff;
+  top: 95%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  box-shadow: 0px 3px 4px 0px #b1acac;
+  border-radius: 5px;
+}
+.teacher-intro span {
+  background-color: #ffa500;
+  color: #fff;
+  padding: 1px 18px;
+  border-radius: 2px;
+}
+.teacher-intro h3 {
+  margin: 30px 0 80px 0;
+}
+.teacher-intro a {
+  border: 1px solid #ffa500;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+  transition: 0.5s ease-in;
+  font-size: 14px;
+}
+.teacher-intro a:hover {
+  background-color: #ffa500;
+}
+@media screen and (max-width: 700px) {
+  .teacher-intro h3 {
+    margin: 30px 0 40px 0;
+    font-size: 17px;
+  }
+  .teacher-intro a {
+    font-size: 14px;
+  }
+}
